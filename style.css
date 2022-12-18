@@ -1,0 +1,164 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(177, 180, 157);
+}
+main{
+    height: 100vh;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+.colors{
+    margin: 5rem;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr); 
+}
+h1{
+    font-size: 25px;
+}
+header h1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.blue{
+    background: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.red{
+    background: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.pink{
+    background: pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.green{
+    background: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.orange{
+    background: orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.yellow{
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.black{
+    background: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.gray{
+    background: gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.white{
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.brown{
+    background: rgb(165, 42, 42);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.purple{
+    background: purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.aqua{
+    background: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.personality{
+    border-radius: 20px;
+    color: aliceblue;
+    width: 800px;
+    height: 400px;
+    background: rgb(11, 1, 1);
+    margin-top: 20%;
+    margin: 0 auto;
+    
+}
+p{
+    padding: 5rem;
+    font-size: 35px;
+     font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+@media screen and (max-width: 1170px) {
+   .colors{
+    grid-template-columns: repeat(6, 1fr);
+   } 
+}
+@media screen and (max-width: 600px) {
+   .colors{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin: 0.25rem 1.2rem;
+ 
+   } 
+   .personality{
+    color: aliceblue;
+    width: 400px;
+    height: 400px;
+}
+header h1{
+    font-size: 15px;
+    padding: 1rem 2rem;
+}
+
+.colors h1{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+p{
+    font-size: 24px;
+}
+.personality{
+    /* margin-top: -50px; */
+    width: 250px;
+    height: 250px;
+}
+.personality p{
+    width: 200px;
+    padding: 3rem 1rem;
+    font-size: 18px;
+    text-align: center;
+}
+}
